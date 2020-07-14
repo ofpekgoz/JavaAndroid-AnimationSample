@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    //android:fillAfter="true"  bunu yaazrsak animasyon bitim halince kalır
+
+
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="3000"/>
+
+
+</set>
+
+    <!--• <alpha></alpha>	:	Görsel	nesnelerin	transparan	hale	dönüşümünü	sağlar	,
+    //0	ile	1	arasında	bir	değişim	olur.
+    //0	:	tamamen	görünmez	,	1	:	tam	görünür	hale	gelir.-->

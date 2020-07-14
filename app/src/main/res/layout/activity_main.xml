@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnBaslat"
+        android:layout_width="220dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="52dp"
+        android:background="#DA3232"
+        android:text="Animasyon Başlat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTranslate" />
+
+    <Button
+        android:id="@+id/btnAlpha"
+        android:layout_width="288dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:text="Alpha Animasyon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTranslate"
+        android:layout_width="288dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="56dp"
+        android:text="Translate Animasyon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRotate" />
+
+    <Button
+        android:id="@+id/btnRotate"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="44dp"
+        android:text="Rotate Animasyon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnScale" />
+
+    <Button
+        android:id="@+id/btnScale"
+        android:layout_width="171dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="45dp"
+        android:text="Scale Animasyon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlpha" />
+</androidx.constraintlayout.widget.ConstraintLayout>
